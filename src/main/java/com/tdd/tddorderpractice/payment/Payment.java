@@ -1,12 +1,25 @@
 package com.tdd.tddorderpractice.payment;
 
 import com.tdd.tddorderpractice.order.Order;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 import org.springframework.util.Assert;
 
+@Entity
+@Getter
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 class Payment {
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private final Order order;
-    private final String cardNumber;
+    @OneToOne
+    Order order;
+    private String cardNumber;
 
     public Payment(Order order, String cardNumber) {
         Assert.notNull(order, "주문은 필수입니다.");
@@ -27,7 +40,4 @@ class Payment {
         return order.getTotalPrice();
     }
 
-    public String getCardNumber() {
-        return cardNumber;
-    }
 }
