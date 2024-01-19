@@ -1,5 +1,6 @@
 package com.tdd.tddorderpractice.payment;
 
+import com.tdd.tddorderpractice.payment.application.service.PaymentRequest;
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;

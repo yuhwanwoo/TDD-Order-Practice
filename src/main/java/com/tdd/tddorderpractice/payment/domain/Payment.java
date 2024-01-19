@@ -1,6 +1,6 @@
-package com.tdd.tddorderpractice.payment;
+package com.tdd.tddorderpractice.payment.domain;
 
-import com.tdd.tddorderpractice.order.Order;
+import com.tdd.tddorderpractice.order.domain.Order;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

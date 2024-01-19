@@ -1,6 +1,6 @@
 package com.tdd.tddorderpractice.order;
 
-import com.tdd.tddorderpractice.order.CreateOrderRequest;
+import com.tdd.tddorderpractice.order.appilcation.service.CreateOrderRequest;
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;

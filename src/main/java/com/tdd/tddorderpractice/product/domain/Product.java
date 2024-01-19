@@ -1,4 +1,4 @@
-package com.tdd.tddorderpractice.product;
+package com.tdd.tddorderpractice.product.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

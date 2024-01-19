@@ -1,9 +1,9 @@
-package com.tdd.tddorderpractice.payment;
+package com.tdd.tddorderpractice.payment.adapter;
 
-import com.tdd.tddorderpractice.order.Order;
-import com.tdd.tddorderpractice.order.OrderRepository;
-import com.tdd.tddorderpractice.product.DiscountPolicy;
-import com.tdd.tddorderpractice.product.Product;
+import com.tdd.tddorderpractice.order.domain.Order;
+import com.tdd.tddorderpractice.order.adapter.OrderRepository;
+import com.tdd.tddorderpractice.payment.Payment;
+import com.tdd.tddorderpractice.payment.PaymentPort;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -2,6 +2,7 @@ package com.tdd.tddorderpractice.payment;
 
 import com.tdd.tddorderpractice.ApiTest;
 import com.tdd.tddorderpractice.order.OrderSteps;
+import com.tdd.tddorderpractice.payment.application.service.PaymentRequest;
 import com.tdd.tddorderpractice.product.ProductSteps;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;

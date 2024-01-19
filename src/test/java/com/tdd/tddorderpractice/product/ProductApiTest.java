@@ -1,6 +1,8 @@
 package com.tdd.tddorderpractice.product;
 
 import com.tdd.tddorderpractice.ApiTest;
+import com.tdd.tddorderpractice.product.adapter.ProductRepository;
+import com.tdd.tddorderpractice.product.application.service.AddProductRequest;
 import io.restassured.RestAssured;
 import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;

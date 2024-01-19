@@ -1,5 +1,6 @@
-package com.tdd.tddorderpractice.payment;
+package com.tdd.tddorderpractice.payment.adapter;
 
+import com.tdd.tddorderpractice.payment.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

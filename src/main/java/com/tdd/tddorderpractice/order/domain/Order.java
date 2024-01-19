@@ -1,6 +1,6 @@
-package com.tdd.tddorderpractice.order;
+package com.tdd.tddorderpractice.order.domain;
 
-import com.tdd.tddorderpractice.product.Product;
+import com.tdd.tddorderpractice.product.domain.Product;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

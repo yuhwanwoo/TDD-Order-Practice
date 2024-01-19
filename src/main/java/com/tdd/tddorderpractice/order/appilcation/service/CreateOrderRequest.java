@@ -1,4 +1,4 @@
-package com.tdd.tddorderpractice.order;
+package com.tdd.tddorderpractice.order.appilcation.service;
 
 import org.springframework.util.Assert;
 
